@@ -1,0 +1,33 @@
+GRABBER APP - APK BANANE KA TAREEQA (GitHub se, koi command nahi)
+
+1. github.com par login karo. Upar "+" dabao -> "New repository".
+   Naam: grabber   |   Public chuno   |   "Create repository" dabao.
+
+2. Is zip ko extract karo. Folder ke andar jo files hain (app, gradle.properties, settings.gradle.kts, ...)
+   wo sab select karo aur GitHub ke page par drag and drop kar do
+   (ya "uploading an existing file" link dabao). Neeche "Commit changes" dabao.
+
+3. IMPORTANT - build file alag se banani hai (kyunke .github folder aksar upload nahi hota):
+   - Repository mein "Add file" -> "Create new file" dabao.
+   - Naam ke dabbe mein ye likho (slash khud folder bana dete hain):
+         .github/workflows/build.yml
+   - WORKFLOW-FILE-COPY.txt kholo, uska poora text copy karke yahan paste karo.
+   - "Commit changes" dabao.
+
+4. Upar "Actions" tab kholo. "Build APK" chalta nazar aayega (peela ghoomta nishan).
+   5-10 minute intezar karo. Hara tick aa jaye to us par click karo.
+
+5. Neeche "Artifacts" mein "Grabber-APK" hoga. Us par click karke zip download karo,
+   usay phone mein extract karo -> app-debug.apk.
+
+6. APK par tap karke install karo. Phone "Unknown sources" ki ijazat maange to de do.
+
+AGAR LAAL CROSS AAYE (build fail):
+   Actions mein us fail hone wale run par click karo, "Build debug APK" kholo,
+   aakhri 30-40 lines ka text ya screenshot mujhe bhej do. Main theek kar dunga.
+
+APP KAISE USE KARNI HAI:
+   - Instagram/TikTok/YouTube mein Share dabao -> Grabber chuno (ya link copy karke app mein Paste)
+   - Video ya Audio chuno, quality chuno, Download dabao
+   - Files Movies/Grabber aur Music/Grabber folder mein milengi (Gallery/Music app mein bhi)
+   - Download na chale to "Engine update karo" dabao, phir dobara try karo
