@@ -7,7 +7,7 @@
         android:allowBackup="false"
         android:extractNativeLibs="true"
         android:label="Grabber"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
 
         <activity
             android:name=".MainActivity"
